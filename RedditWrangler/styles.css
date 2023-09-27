@@ -1,0 +1,10 @@
+body header + div,
+body a[href='/submit'],
+body a[href='/submit'] + button,
+body hr {
+	display: none !important;
+}
+
+#AppRouter-main-content {
+	padding-top: 48px !important;
+}

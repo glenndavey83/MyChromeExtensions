@@ -1,0 +1,12 @@
+{
+	"name": "Insider Wall Remover",
+	"description": "AdBlock Wall Remover",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+		  "matches": ["https://*.insider.com/*"],
+		  "css": ["styles.css"]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "YouTube Improved",
+	"description": "Un-round the borders of thumbnails, channel avatars, and hide Shorts shelf",
+	"version": "1.1",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+		  "matches": ["https://*.youtube.com/*"],
+		  "css": ["styles.css"]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+* {
+	border-radius: 0px !important;
+}
+
+#big-yoodle,
+ytd-rich-section-renderer {
+	display: none !important;
+	position: absolute;
+	left: -999999;
+	top: -999999;
+	visibility: hidden;
+}

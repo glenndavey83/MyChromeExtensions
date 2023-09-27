@@ -1,0 +1,9 @@
+body {
+	overflow: auto !important;
+}
+
+.page-above,
+.google-dfp-ad-wrapper,
+modality-custom-element {
+	display: none !important;
+}

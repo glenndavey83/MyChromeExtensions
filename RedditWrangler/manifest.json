@@ -1,0 +1,13 @@
+{
+	"name": "Reddit Wrangler",
+	"description": "Block ads and hide suspension nags",
+	"version": "1.2",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+		  "matches": ["https://*.reddit.com/*"],
+		  "css": ["styles.css"],
+		  "js": ["script.js"]
+		}
+	]
+}

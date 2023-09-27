@@ -1,0 +1,6 @@
+html, body { overflow: auto !important; }
+
+body > div:last-of-type,
+body > div.fEy1Z2XT {
+	display: none !important;
+}

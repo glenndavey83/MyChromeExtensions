@@ -1,0 +1,16 @@
+html body main.is-locked {
+	position: relative;
+	height: auto;
+	overflow-y: visible;
+}
+
+html body main .SimpleAd, 
+html body main .PageTopAd,
+html body main .ExtraSidebarAd,
+html body main .Sizer,
+html body main .ConnatixAd,
+html body main .FooterAd,
+html body main.is-locked + div,
+html body main.is-locked + div + div {
+	display: none !important;
+}
